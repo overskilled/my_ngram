@@ -17,7 +17,7 @@ void print_array(int* array, int size_array){
         i++;;
             }
 }
-int main(int ac, char** av){
+/*int main(int ac, char** av){
     int i=1;
     int array[MAX_ARRAY_SIZE]= {0};
     while(i<ac){
@@ -26,4 +26,4 @@ int main(int ac, char** av){
     }
     print_array(&array[0],MAX_ARRAY_SIZE);
     return 0;
-}
+}*/
