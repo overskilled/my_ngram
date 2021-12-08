@@ -14,16 +14,6 @@ void print_array(int* array, int size_array){
     while(i<size_array){
         if(array[i]>0){
             printf("%c:%d\n", i, array[i]);}
-        i++;;
+        i+=1;
             }
-}
-int main(int ac, char** av){
-    int i=1;
-    int array[MAX_ARRAY_SIZE]= {0};
-    while(i<ac){
-    fill_array(&array[0],av[i]);
-    i++;
-    }
-    print_array(&array[0],MAX_ARRAY_SIZE);
-    return 0;
 }
