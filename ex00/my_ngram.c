@@ -1,6 +1,5 @@
 #include <stdio.h>
 #define MAX_ARRAY_SIZE 128
-
 void fill_array(int* array,char* str){
     int i=0;
     while(str[i] != '\0'){
