@@ -25,7 +25,8 @@ Order will be alphanumerical.
 
 Example 00
 
-```$>./my_ngram "abcdef"
+```
+$>./my_ngram "abcdef"
 a:1
 b:1
 c:1
