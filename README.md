@@ -38,7 +38,8 @@ $>
 
 Example 01
 
-```$>./my_ngram "        "
+```
+$>./my_ngram "        "
  :8
 $>
 ```
@@ -47,7 +48,8 @@ $>
 
 Example 02
 
-```$>./my_ngram "aaabb" "abc"
+```
+$>./my_ngram "aaabb" "abc"
 a:4
 b:3
 c:1
@@ -77,7 +79,8 @@ $>
 
 Example of some rules for Makefiles:
 
-```all : $(TARGET)
+```
+all : $(TARGET)
 
 $(TARGET) : $(OBJ)
 	gcc $(CFLAGS) -o $(TARGET) $(OBJ)
